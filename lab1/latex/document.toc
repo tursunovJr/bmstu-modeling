@@ -1,0 +1,14 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Введение}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Аналитическая часть}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Технологическая часть}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Листинг кода}{5}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Исследовательская часть }{7}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Пример работы}{7}{}%
