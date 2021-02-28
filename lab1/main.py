@@ -29,51 +29,16 @@ def euler(n, h, x, y):
             break
     return y_out
 
-# Неявный Эйлера
-def implicit_euler(n, h, x, y):
-    y_out = [y]
-    for i in range(n):
-        D = 1 - 4*h*(y + h*((x + h)**2))
-        if D < 0:
-            y_out.append('D < 0')
-            for _ in range(i, n-2):
-                y_out.append('-----')
-            break
-        y = (1 - sqrt(D)) / (2*h) # берем корень с минусом
-        x += h
+
+def runge_kutt2(n, h, x, y):
+    y_out = []
+    for _ in range(n):
+        y += h * func(x + h / 2, y + h / 2 * func(x, y))
         y_out.append(y)
+        x += h
     return y_out
-# def Picar3(x):
-#     y = pow(x, 3) / 3
-#     tmp = 1 + pow(x, 4) / 21
-#     tmp += 2 * pow(x, 3) / (693)
-#     tmp += pow(x, 12) / (19845)
-#     return y*tmp
 
 
-# def Picar4(x):
-#     y = pow(x, 31)/109876902975
-#     y += 2 * pow(x, 23) / 86266215
-#     y += 2 * pow(x, 22) / 1361505915
-#     y += 2 * pow(x, 19) / 3393495
-#     y += pow(x, 15) / 59535
-#     y += 2 * pow(x, 14) / 916839
-#     y += pow(x, 13) / 56189133
-#     y += 2 * pow(x, 11)/2079
-#     y += 2 * pow(x, 10)/31185
-#     y += 2 * pow(x, 7)/63
-#     y += pow(x, 3) / 3
-#     return y
-
-# def union(n, h, x, y0):
-#     y_out = [[y0, y0]]
-#     for _ in range(n):
-#         y_f3 = Picar3(x)
-#         y_f4 = Picar4(x)
-#         y_out.append([y_f3, y_f4])
-#         x += h
-#     return y_out
-# Пикар
 def picar(n, h, x, y0):
     def f1(a):
         return a ** 3 / 3
@@ -96,7 +61,7 @@ def picar(n, h, x, y0):
         
 
 def work():
-    h = 10 ** -5 # 10**-5 это хороший шаг для численных методов
+    h = 10 ** -7 # 10**-5 это хороший шаг для численных методов
     
     x = 0
     y0 = 0
@@ -106,10 +71,10 @@ def work():
 
     x_arr = [x + h*i for i in range(n)]
     y1 = euler(n, h, x, y0)
-    y2 = implicit_euler(n, h, x, y0)
+    y2 = runge_kutt2(n, h, x, y0)
     y3 = picar(n, h, x, y0)
 
-    print("|    x    |   Пикар 1     |    Пикар 2    |   Пикар 3     |    Пикар 4    |     Явный     |    Неявный    |")
+    print("|    x    |   Пикар 1     |    Пикар 2    |   Пикар 3     |    Пикар 4    |     Явный     |    Рунге2    |")
     print("-"*107)
     output_step = int(n/100) # выводим только 100 значений в таблице 
     for i in range(0, n, output_step):

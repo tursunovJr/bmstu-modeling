@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.14)  24 FEB 2021 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.14)  28 FEB 2021 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -888,7 +888,7 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 (c:/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [5]
-Overfull \hbox (2.11626pt too wide) in paragraph at lines 199--200
+Overfull \hbox (2.11626pt too wide) in paragraph at lines 193--194
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
  []
@@ -896,40 +896,45 @@ Overfull \hbox (2.11626pt too wide) in paragraph at lines 199--200
 [6
 
 ]
-<1.png, id=42, 527.87213pt x 545.33737pt>
+<1.png, id=42, 532.99126pt x 546.54187pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
-Package pdftex.def Info: 1.png  used on input line 212.
-(pdftex.def)             Requested size: 475.08052pt x 490.7991pt.
+Package pdftex.def Info: 1.png  used on input line 206.
+(pdftex.def)             Requested size: 479.6877pt x 491.88313pt.
 
-Overfull \hbox (42.5987pt too wide) in paragraph at lines 212--213
+Overfull \hbox (47.20587pt too wide) in paragraph at lines 206--207
  [][] 
  []
 
 [7
 
  <./1.png>]
-<2.png, id=46, 528.17325pt x 537.50812pt>
+<2.png, id=46, 534.19576pt x 537.207pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
-Package pdftex.def Info: 2.png  used on input line 219.
-(pdftex.def)             Requested size: 475.35153pt x 483.75284pt.
+Package pdftex.def Info: 2.png  used on input line 213.
+(pdftex.def)             Requested size: 480.77174pt x 483.48183pt.
 
-Overfull \hbox (42.8697pt too wide) in paragraph at lines 219--220
+Overfull \hbox (48.28992pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
 [8
 
- <./2.png>] [9] (./document.aux)
+ <./2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 223--232
+
+ []
+
+[9] (./document.aux)
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  13282 strings out of 479917
- 222307 string characters out of 5886664
- 1004066 words of memory out of 5000000
+ 222308 string characters out of 5886664
+ 996066 words of memory out of 5000000
  29689 multiletter control sequences out of 15000+600000
  545589 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -948,7 +953,7 @@ texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2020/texmf-dist
 e1/public/cm-super/sfrm1440.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/
 cm-super/sfrm1728.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
 ftt1000.pfb>
-Output written on document.pdf (10 pages, 1231837 bytes).
+Output written on document.pdf (10 pages, 1233177 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
