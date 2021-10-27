@@ -1,0 +1,18 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}{Задание}}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}{Теоритическая часть}}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Равномерное распределение}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Нормальное распределение}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Пошаговый подход}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Событийный подход}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}{Результаты}}{4}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Листинг кода}{7}{}%
