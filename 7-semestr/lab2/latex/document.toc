@@ -1,0 +1,10 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {russian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}{Задание}}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}{Теоритическая часть}}{2}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}{Результаты}}{3}{}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Листинг кода}{5}{}%
